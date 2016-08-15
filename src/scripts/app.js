@@ -9,6 +9,6 @@ require("./views/guide");
 require("./views/register");
 
 SPA.config({
-	indexView:"guide"
+	indexView:"index"
 })
   
