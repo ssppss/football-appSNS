@@ -16,7 +16,7 @@
 	    	<div class="swiper-slide" id="swiper-sl">
 	    		<nav>
 					<ol>
-						<li class="active" action-type="tag.slide">足足足足</li>
+						<li class="active" action-type="tag.slide">足球组织</li>
 						<li action-type="tag.slide">足球生活</li>
 						<li action-type="tag.slide">足球美女</li>
 					</ol>
