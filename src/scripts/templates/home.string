@@ -1,0 +1,68 @@
+<div class="home">
+	<header>
+		<ul>
+			<li class="yo-ico menu">&#xe605;</li>
+			<li>
+				<ul id="title">
+					<li class="active" action-type="tag.list">热点</li>
+					<li action-type="tag.list">关注</li>
+				</ul>
+			</li>
+			<li class="yo-ico sca">&#xe609;</li>
+		</ul>
+	</header>
+	<div class="swiper-container" id="swiper-con">
+	  	<div class="swiper-wrapper" id="swiper-wrapper">
+	    	<div class="swiper-slide" id="swiper-sl">
+	    		<nav>
+					<ol>
+						<li class="active" action-type="tag.slide">足球现场</li>
+						<li action-type="tag.slide">足球生活</li>
+						<li action-type="tag.slide">足球美女</li>
+					</ol>
+				</nav>
+				<section>
+					<div class="swiper-container" id="swiper-slide">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+						    	<div class="scroller" spa-widget="scroll" data-scroll-id="homeListScroll">
+						    		<div>
+						    			<div class="top">
+							    			<img src="images/arrow.png">
+							    			<span>下拉刷新...</span>
+							    		</div>
+										<ul ms-repeat-obj="livedata">
+											<li ms-attr-data-id="obj[0].id" action-type="goto.detail">
+						                        <img ms-src="obj[0].img" alt="">
+						                        <b ms-text="obj[0].title"></b>
+						                    </li>
+						                    <li></li>
+						                    <li ms-attr-data-id="obj[1].id" action-type="goto.detail" ms-class-hide="!obj[1]">
+						                        <img ms-src="obj[1].img" alt="">
+						                        <b ms-text="obj[1].title"></b>
+						                    </li>
+										</ul>
+										<div class="bottom">
+							    			<img src="images/arrow.png">
+							    			<span>上拉加载更多...</span>
+							    		</div>
+						    		</div>
+								</div>
+						  	</div>
+						  	<div class="swiper-slide">
+						    	足球生活
+						  	</div>
+						  	<div class="swiper-slide">
+						    	足球美女
+						  	</div>
+						</div>
+					</div>
+				</section>
+	    	</div>
+	    	<div class="swiper-slide">
+	    		关注
+	    	</div>
+	  	</div>
+	</div>
+	
+</div>

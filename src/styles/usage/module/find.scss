@@ -1,0 +1,71 @@
+.wrap{
+	.find{
+		@include flexbox();
+		@include flex(1);
+		@include flex-direction(column);
+		width:100%;
+		.head-search{
+			height:.44rem;
+			background:#0cc042;
+			ul{
+				@include flexbox();
+				width:100%;
+				height:100%;
+				color:#fff;
+				text-align:center;
+				font-size:.16rem;
+				position:relative;
+				li{
+					height:100%;
+					&:nth-child(2){
+						@include flex(1);
+						line-height:.44rem;
+					}
+					&.sea{
+						width:.44rem;
+						position:absolute;
+						top:0.11rem;
+						left:0.02rem;
+					}
+				}
+			}
+		}
+		.nav-search{
+			height:.44rem;
+			background:#fff;
+			@include flexbox();
+			color:#fff;
+			padding:0.07rem 0.05rem;
+			@include box-sizing();
+			@include flexbox();
+			input{
+				@include flex();
+				height:.26rem;
+				@include border(1px,#E0E0E0);
+				padding-left:0.03rem;
+				margin-right:0.05rem;
+				@include border-radius(.03rem);
+			}
+			button{
+				width:.55rem;
+				height:.3rem;
+				background:#0cc042;
+				border:none;
+				font-size:.14rem;
+				@include border-radius(.03rem);
+			}
+		}
+		.section{
+			@include flex(1);
+			margin-top:0.05rem;
+			overflow:hidden;
+			width:100%;
+			.img{
+				width:100%;
+				height:100%;
+				background:#fff;
+
+			}
+		}
+	}
+}

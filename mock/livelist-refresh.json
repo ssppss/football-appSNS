@@ -1,0 +1,28 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data": [{
+    "img": "/football-app/images/img1.jpg",
+    "title": "mm朴智星:韩国战中国需"
+  }, {
+    "img": "/football-app/images/img2.jpg",
+    "title": "mm黄博文杜威微博表"
+  }, {
+    "img": "/football-app/images/img3.jpg",
+    "title": "mm颜强：国足出 态度决定一切"
+  }, {
+    "img": "/football-app/images/img4.jpg",
+    "title": "mm吴曦:渴望12强战出色表现"
+  }, {
+    "img": "/football-app/images/img1.jpg",
+    "title": "mm全国瞩目！新闻"
+  }, {
+    "img": "/football-app/images/img2.jpg",
+    "title": "mm国足与对手全是"
+  }, {
+    "img": "/football-app/images/img3.jpg",
+    "title": "mm韩国主帅：战中"
+  }]
+}
