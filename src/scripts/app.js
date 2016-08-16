@@ -12,3 +12,5 @@ SPA.config({
 	indexView:"guide"
 })
 console.log("hello guide")
+
+console.log("pink")
